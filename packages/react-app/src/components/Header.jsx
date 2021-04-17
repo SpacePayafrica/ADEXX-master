@@ -146,7 +146,7 @@ setMore(false)
                  <Faucet localProvider={localProvider} price={price} ensProvider={mainnetProvider}/></span>   
                 }
                  <span><a href="https://kayalbertus.gitbook.io/adex-guide/">Guide</a></span> 
-       <span><Link to="/support">Support</Link></span> 
+       <span><a href="https://discord.gg/29EDQHHu">Support</a></span> 
       
       </div>
   </span>

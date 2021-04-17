@@ -1,13 +1,13 @@
 #ADEX
 
 > Africa First Decentralized Exchange
+> 
 > Team Members 
 > Kasheef Kay Albertus -Backend and Frontend 
 > Janvinsha -Frontend
 > Jimmy -Designer
-> Henny-Frontend 
-> Henrico-Backend
-> Dianna-Documents
+> Henny-Designer 
+> Dianna-Designer 
 
 
 
