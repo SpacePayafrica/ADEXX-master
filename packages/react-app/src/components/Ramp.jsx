@@ -70,7 +70,7 @@ export default function Ramp(props) {
             size="medium"
             shape="round"
             onClick={() => {
-              window.open("https://pay.sendwyre.com/purchase?destCurrency=ETH&sourceAmount=25&dest=" + props.address);
+              window.open("https://pay.sendwyre.com/purchase?destCurrency=BTC&sourceAmount=25&dest=" + props.address);
             }}
           >
             <span style={{ paddingRight: 15 }} role="img">
@@ -89,8 +89,8 @@ export default function Ramp(props) {
               new RampInstantSDK({
                 hostAppName: "ADEX",
                 hostLogoUrl: "https://www.etg.solutions/wp-content/uploads/2016/07/ETG-White-500px.png",
-                swapAmount: "100000000000000000", // 0.1 ETH in wei  ?
-                swapAsset: "ETH",
+                swapAmount: "10000000", // 0.1 ETH in wei  ?
+                swapAsset: "BTC",
                 userAddress: props.address,
               })
                 .on("*", event => console.log(event))
@@ -122,7 +122,7 @@ export default function Ramp(props) {
 
         <Divider />
 
-        <h2>Testnet ETH</h2>
+        <h2>Testnet BNB</h2>
 
         {allFaucets}
 

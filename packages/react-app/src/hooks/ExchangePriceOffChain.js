@@ -25,7 +25,7 @@ export default function useExchangePriceOffChain(targetNetwork,writeContracts,po
              
               const shaValue = Web3Utils.soliditySha3('BNB/USD');
               console.log("SHA Value",shaValue);
-             // approveTx = await writeContracts.Oracle.updateData(shaValue,currentPrice);
+              //approveTx = await writeContracts.Oracle.updateData(shaValue,currentPrice);
               console.log("TX VALUE ",approveTx);    
 
             } catch (error) {

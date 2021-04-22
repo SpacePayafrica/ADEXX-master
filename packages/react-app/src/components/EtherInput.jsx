@@ -3,7 +3,7 @@ import { Input } from "antd";
 
 
 const EtherInput=(props) =>{
-  const [mode, setMode] = useState(props.price ? "USD" : "ETH");
+  const [mode, setMode] = useState(props.price ? "USD" : "BNB");
   const [display, setDisplay] = useState();
   const [value, setValue] = useState();
 
@@ -16,7 +16,7 @@ const EtherInput=(props) =>{
         style={{ cursor: "pointer" }}
         onClick={() => {
           if (mode === "USD") {
-            setMode("ETH");
+            setMode("BNB");
             setDisplay(currentValue);
           } else {
             setMode("USD");
@@ -41,7 +41,7 @@ const EtherInput=(props) =>{
     addonAfter = option("USD 🔀");
   } else {
     prefix = "Ξ";
-    addonAfter = option("ETH 🔀");
+    addonAfter = option("BNB 🔀");
   }
 
   useEffect(
