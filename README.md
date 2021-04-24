@@ -37,3 +37,5 @@ yarn chain
 cd adexproj
 yarn deploy
 
+Please Read More Here 
+https://kayalbertus.gitbook.io/adex-guide/
